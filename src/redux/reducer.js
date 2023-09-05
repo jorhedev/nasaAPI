@@ -34,7 +34,7 @@ const reducer = (state = initialState, action) => {
         indexLastImages: last,
         indexFirstImages: first,
         updatedShowImages: update,
-        prevIndexPage: state.indexPage, // Actualiza la propiedad prevIndexPage
+        prevIndexPage: state.indexPage,
       };
     }
 

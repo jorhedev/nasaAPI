@@ -9,7 +9,7 @@ const ApiKey = "zhJQlfJN85HwVKwYRXBZdHEj2Ywd6KqZDkm7Ubwg";
 export const getImagenes = () => {
   return async function (dispatch) {
     const apiData = await axios.get(
-      `https://api.nasa.gov/planetary/apod?api_key=${ApiKey}&count=12`
+      `https://api.nasa.gov/planetary/apod?api_key=${ApiKey}&count=48`
     );
     const imagenes = apiData.data;
 
