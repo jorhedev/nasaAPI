@@ -1,0 +1,43 @@
+.container{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('../assets/wp.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.info img{
+    width: 150px;
+    object-fit: contain;
+}
+
+.info h3{
+    line-height: 0;
+}
+
+.icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+@media (max-width: 767px) {
+
+    .info h3 {
+        text-align: center;
+        line-height: 1.2;
+    }
+
+}

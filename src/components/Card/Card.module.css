@@ -1,0 +1,50 @@
+.containerCard {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    /* background-color: rgb(18, 18, 18); */
+    border-top: 2px solid #FFFFFF75;
+    border-left: 2px solid #FFFFFF75;
+    box-shadow: 5px 5px 12px #00000035;
+    background: #ffffff4b;
+    overflow: hidden;
+    backdrop-filter: blur(4px);
+    margin: 15px;
+}
+
+.cardBox img{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.cardBox h2{
+    text-shadow: 2px 2px 5px #ffffff;
+    text-align: center;
+    color: #101010;
+    font-size: 20px;
+    padding: 0 15px 10px;
+}
+
+.cardBox h3{
+    text-shadow: 2px 2px 5px #ffffff;
+    text-align: center;
+    color: #101010;
+    font-size: 20px;
+    padding: 0 15px 10px;
+    margin: 0;
+}
